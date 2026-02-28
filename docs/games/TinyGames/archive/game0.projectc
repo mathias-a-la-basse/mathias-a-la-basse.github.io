@@ -1,6 +1,6 @@
 [project]
 title = TinyGames
-version = 1.0.1
+version = 1.1.0
 publisher = 
 developer = 
 write_log = 0
@@ -16,12 +16,12 @@ high_dpi = 1
 samples = 0
 fullscreen = 0
 display_profiles = /render/my.display_profilesc
-dynamic_orientation = 0
+dynamic_orientation = 1
 update_frequency = 0
 swap_interval = 1
 vsync = 1
 variable_dt = 0
-display_device_info = 0
+display_device_info = 1
 
 [render]
 clear_color_red = 0
@@ -34,11 +34,11 @@ max_collision_object_count = 128
 type = 2D
 use_fixed_timestep = 1
 debug = 0
-debug_alpha = 0.9
+debug_alpha = 0.5
 debug_scale = 30
 world_count = 4
 gravity_x = 0
-gravity_y = -1000.0
+gravity_y = 0.001
 gravity_z = 0
 scale = 0.01
 allow_dynamic_transforms = 1
